@@ -1,0 +1,8 @@
+[
+  {
+    "interfaces": [
+      "org.springframework.aop.SpringProxy",
+      "org.springframework.aop.framework.Advised"
+    ]
+  }
+]

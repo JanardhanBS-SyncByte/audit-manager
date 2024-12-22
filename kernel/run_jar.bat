@@ -1,0 +1,1 @@
+java -Dspring.profiles.active=default -Dspring.cloud.config.uri=http://localhost:51000/config -Dspring.cloud.config.label=master -Dspring.cloud.config.enabled=true -Dspring.cloud.config.name=kernel -jar target/graalvm-springboot-example-0.0.1-SNAPSHOT.jar

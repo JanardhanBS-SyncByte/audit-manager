@@ -1,0 +1,37 @@
+[
+  {
+    "name": "com.example.graalvmdemo.config.OpenApiProperties",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.example.graalvmdemo.config.InfoProperty",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.example.graalvmdemo.config.LicenseProperty",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.example.graalvmdemo.config.Service",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.example.graalvmdemo.config.Server",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springdoc.core.configuration.SpringDocConfiguration",
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.springdoc.core.configuration.SpringDocPageableConfiguration",
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true
+  }
+]
