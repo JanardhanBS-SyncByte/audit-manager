@@ -402,6 +402,12 @@
 						<arg>
 							--verbose
 						</arg>
+                                                <arg>
+							-J-Xmx6g
+						</arg>
+                                                <arg>
+                                                        --no-server
+                                                </arg>
 						<arg>
 							-H:+UnlockExperimentalVMOptions
 						</arg>
@@ -474,4 +480,29 @@
 			</build>
 		</profile>
 	</profiles>
+
+<repositories>
+		<repository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/release</url>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<url>https://repo.spring.io/milestone</url>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<url>https://repo.spring.io/snapshot</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
 </project>
